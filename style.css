@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.counter-cont{
+    border: 1px solid grey;
+    padding: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(240, 248, 255,0.5);
+    width: 20%;
+    height: 45%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#increment-btn{
+    width: 100%;
+    background-color: rgb(192, 21, 21);
+    color: white;
+    border: none;
+    padding: 5% 10%;
+    margin-top: 5%;
+}
+
+#save-btn {
+    width: 50%;
+    margin-top: 5%;
+    border: none;
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    padding: 5% 10%;
+    align-items: flex-end;
+    margin-right: 5px;
+}
+
+#clear-btn{
+    width: 50%;
+    margin-top: 5%;
+    border: none;
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    padding: 5% 10%;
+    margin-left: 5px;
+}
+
+.btn {
+    display: flex;
+}
+#count-el{
+    text-align: center;
+    font-weight: 700;
+    font-size: 90px;
+}
+
+#container {
+    background: linear-gradient(rgba(84, 82, 187, 0.4), rgba(2, 4, 32, 0.8)), url(./img/bg.jpg) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+}
+
+#entries-el{
+    margin-top: 12%;
+    font-weight: 500;
+}
