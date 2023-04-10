@@ -73,3 +73,10 @@
     margin-top: 12%;
     font-weight: 500;
 }
+
+@media (max-width:375px) {
+    .counter-cont{
+        width: 50%;
+        height: 50%;
+    }
+}
