@@ -1,6 +1,5 @@
 let entriesEl = document.getElementById("entries-el")
 let countEl = document.getElementById("count-el");
-let clearEl =  document.getElementById("clear-btn")
 let count = 0;
 
 function increment() {
@@ -15,7 +14,3 @@ function save() {
     countEl.textContent = 0;
 }
 
-function clear() {
-    
-
-}
